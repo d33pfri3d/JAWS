@@ -8,10 +8,18 @@ JAWS aims to fix that.
 
 ## The way I use it?
 
-No cloning of this repository - I aint got time for that.
+No cloning of this repository - I aint got time for that. I just need some copy-pasta thing going on. So I just curl to a file that I can keep up to date and copy that to the clipboard.
 
-```
-curl https://raw.githubusercontent.com/shaundunne/JAWS/master/webpack.config.js | pbcopy
-```
 
-Then just make a `webpack.config.js` and paste.
+##Templates
+
+###ES2015 with Babel
+
+Webpack config file
+```
+curl https://raw.githubusercontent.com/shaundunne/JAWS/esnext/master/webpack.config.js | pbcopy
+```
+Dependencies (to be copied into Package.json)
+```
+curl https://raw.githubusercontent.com/shaundunne/JAWS/esnext/master/dependencies.json | pbcopy
+```
