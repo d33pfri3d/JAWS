@@ -17,9 +17,9 @@ No cloning of this repository - I aint got time for that. I just need some copy-
 
 Webpack config file
 ```
-curl https://raw.githubusercontent.com/shaundunne/JAWS/esnext/master/webpack.config.js | pbcopy
+curl https://raw.githubusercontent.com/shaundunne/JAWS/master/esnext/webpack.config.js | pbcopy
 ```
 Dependencies (to be copied into Package.json)
 ```
-curl https://raw.githubusercontent.com/shaundunne/JAWS/esnext/master/dependencies.json | pbcopy
+curl https://raw.githubusercontent.com/shaundunne/JAWS/master/esnext/dependencies.json | pbcopy
 ```
